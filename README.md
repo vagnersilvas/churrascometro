@@ -1,9 +1,17 @@
 
 <h1>Churrascômetro</h1>
-<br><br>
+<br>
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- JavaScript
+
+## 💻 Projeto
+
 <p> Currascômetro é uma aplicação, que consiste em calcular a quantidade aproximada de carne e bebidas em relação a quantidade de adultos, crianças e horas de duração.</p> 
-
-
 <br>
 <img src="./img/index_desktop.png">
 
