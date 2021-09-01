@@ -1,4 +1,8 @@
-
+<style>
+p{
+    font-size: 24px;
+}
+</style>
 <h1>Churrascômetro</h1>
 <br><br>
 <p> Currascômetro é uma aplicação, que consiste em calcular a quantidade aproximada de carne e bebidas em relação a quantidade de adultos, crianças e horas de duração.</p> 
