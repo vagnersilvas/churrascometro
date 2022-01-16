@@ -9,6 +9,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
+Confira[aqui](http://vagnersilvas.github.io/churrascometro);
+
 ## 💻 Projeto
 
 <p> Currascômetro é uma aplicação, que consiste em calcular a quantidade aproximada de carne e bebidas em relação a quantidade de adultos, crianças e horas de duração.</p> 
