@@ -56,7 +56,7 @@ function calcular(){
     let resultRefrigerante = document.getElementById("refrigerante")
 
     description.innerHTML = `Para o seu churrasco recomendamos`
-    resultCarne.innerHTML = `<img src="./img/meat.png"> <span>${carne(inputAdultos, inputCriancas, inputHoras)} Kg</span> de carne`
-    resultCerveja.innerHTML = `<img src="./img/beer.png"> <span>${cerveja(inputAdultos, inputHoras)} Latas</span> de cerveja`
-    resultRefrigerante.innerHTML = `<img src="./img/cola.png"> <span>${refrigerante(inputAdultos, inputCriancas, inputHoras)} L de</span> refrigerante`
+    resultCarne.innerHTML = `<img src="./assets/img/meat.png"> <span>${carne(inputAdultos, inputCriancas, inputHoras)} Kg</span> de carne`
+    resultCerveja.innerHTML = `<img src="./assets/img/beer.png"> <span>${cerveja(inputAdultos, inputHoras)} Latas</span> de cerveja`
+    resultRefrigerante.innerHTML = `<img src="./assets/img/cola.png"> <span>${refrigerante(inputAdultos, inputCriancas, inputHoras)} L de</span> refrigerante`
 }
