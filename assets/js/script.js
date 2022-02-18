@@ -33,6 +33,10 @@ const elements = {
 
 const somar = (a, b) => (a + b).toFixed(2)
 
+function getValueInput(id) {
+    return document.getElementById(id).value
+}
+
 function carnePorQtdPessoas(qtdPessoas, percentual) {
     return qtdPessoas * percentual;
 }
@@ -72,9 +76,6 @@ function qtdeRefrigerante(pessoa, horas, itens) {
     return calcRefrigerante(pessoa, mlRefrigerante)
 }
 
-
-
-
 function exibeNoDocument(carne, cerveja, refrigerante) {
 
     const { description, resultCarne, resultCerveja, resultRefrigerante } = elements
@@ -83,11 +84,6 @@ function exibeNoDocument(carne, cerveja, refrigerante) {
     resultCarne.innerHTML = `<img src="./assets/img/meat.png"> <span>${carne} Kg</span> de carne`
     resultCerveja.innerHTML = `<img src="./assets/img/beer.png"> <span>${cerveja} Latas</span> de cerveja`
     resultRefrigerante.innerHTML = `<img src="./assets/img/cola.png"> <span>${refrigerante} L de</span> refrigerante`
-
-}
-
-function getValueInput(id) {
-    return document.getElementById(id).value
 }
 
 function calcTotal() {
@@ -116,5 +112,4 @@ function exibir() {
     const [carne, refrigerante, cerveja] = calcTotal()
 
     exibeNoDocument(carne, cerveja, refrigerante);
-
 }
