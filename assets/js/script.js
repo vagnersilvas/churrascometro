@@ -1,19 +1,4 @@
-// Carne - 400gr por pessoa  + de 6 horas - 650gr
-// Cerveja - 1200ml por Pessoa + 6 horas - 2000ml
-// Refrigerante/agua - 1000ml por Pessoa + 6 horas 1500ml
 
-// crianças valem por 0,5
-
-//kg carne
-// adultos * 0.4 + crianças * 0.4 / 2
-//kg carne + 6 hrs
-// adultos * 0.65 + crianças * 0.65 / 2
-//latas cerveja
-// Math.ceil (adultos * 1200 / 350)
-// latas cerveja + 6hrs
-// Math.ceil(adultos * 2000 / 350)
-// Litros refrigerante/ agua
-// (adultos * 1000 + crianças * 1000 / 2)/ 1000 
 const itensAdulto = {
     carne: {
         maisSeisHoras: 0.65,
