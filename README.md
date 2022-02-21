@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-[Confira o projeto aqui](http://vagnersilvas.github.io/churrascometro)
+[Confira o projeto aqui](https://vagnersilvas.github.io/churrascometro/)
 
 ## 💻 Projeto
 
